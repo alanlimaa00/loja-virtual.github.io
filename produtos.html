@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="main.js"></script>
+    <title>Yan Serviços Automotivos</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="assets/imgs/logo sem numero de contato.png" alt="Logo" width="45" height="24" class="d-inline-block align-text-top">
+                <strong>Yan Serviços Automotivos</strong></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nossos Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Manutenção de Automóveis</a></li>
+                      <li><a class="dropdown-item" href="#">Manutenção de Motocicletas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Nossas Redes Sociais</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="produtos.html">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobreNos.html">Sobre nós</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Carrinho de compras -->
+    <section class="h-100 h-custom" style="background-color: #fdfdfd;">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12" id="carrinho">
+              <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                <div class="card-body p-0">
+                  <div class="row g-0">
+                    <div class="col-lg-8">
+                      <div class="p-5">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                          <h1 class="fw-bold mb-0 text-black">Nossos Produtos</h1>
+                          <h6 class="mb-0 text-muted"> items</h6>
+                        </div>
+                        
+                        <!-- Produto 0 -->
+                        <hr class="my-4">
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="assets/produtos/20230510_103603_161127_8660089842-removebg-preview.png"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Renault Motrio</h6>
+                            <h6 class="text-black mb-0">Óleo Mineral SAE 20w50</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">R$<span id="preco">27,99</span></h6>
+                          </div>
+                          
+                          <!-- Produto 1 -->
+                          <hr class="my-4">
+                          <div class="row mb-4 d-flex justify-content-between align-items-center">
+                            <div class="col-md-2 col-lg-2 col-xl-2">
+                              <img
+                                src="assets/produtos/oleo_SUPREME 20W50.png"
+                                class="img-fluid rounded-3" alt="Cotton T-shirt">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-xl-3">
+                              <h6 class="text-muted">Dulub Supreme</h6>
+                              <h6 class="text-black mb-0">Óleo 20w50</h6>
+                            </div>
+                            <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                              <h6 class="mb-0">R$<span id="preco">23,99</span></h6>
+                            </div>
+
+                        <!-- Produto 2 -->
+                        <hr class="my-4">
+                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                          <div class="col-md-2 col-lg-2 col-xl-2">
+                            <img
+                              src="assets/produtos/oleo-motrio-10w40-renault-original-removebg-preview.png"
+                              class="img-fluid rounded-3" alt="Cotton T-shirt">
+                          </div>
+                          <div class="col-md-3 col-lg-3 col-xl-3">
+                            <h6 class="text-muted">Renault Motrio</h6>
+                            <h6 class="text-black mb-0">Performa 10w40</h6>
+                          </div>
+                          <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                            <h6 class="mb-0">R$<span id="preco">33,99</span></h6>
+                          </div>
+
+                        <hr class="my-4">
+                        <div class="pt-5">
+                          <h6 class="mb-0"><a href="index.html" class="text-body"><i
+                                class="fas fa-long-arrow-alt-left me-2"></i>Voltar à Home</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <footer>
+        <img src="assets/imgs/logo_redonda.png" alt="logo branca" width="100" height="100">
+        <p class="endereco"><strong>Rua Moreira Rocha - Sucatinga</strong><br>Beberibe - Ceará - CEP: 62842-000 </p><br>
+        <p class="copyright">&copy; AL | Designer</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
